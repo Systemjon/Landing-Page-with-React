@@ -10,3 +10,10 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    background: white;
+}
+
+.color {
+    background: rgb(246,246,246);
+background: linear-gradient(0deg, rgba(246,246,246,1) 0%, rgba(214,214,214,1) 98%, rgba(164,164,164,1) 100%);}
