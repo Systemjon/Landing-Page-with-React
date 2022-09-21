@@ -5,7 +5,7 @@ import React from "react";
 export const Card = ({title, imageSource}) => {
 	return (
 		<div className="card text-center p-4">
-			<img src={imageSource}  p-2 alt=""/>
+			<img src={imageSource} alt=""/>
 			<div className="card.body">
 				<h4 className="card-title">{title}</h4>
 				<p className="cart-text text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium earum nemo maiores adipisci esse, modi harum nulla beatae iure?!</p>
@@ -17,8 +17,4 @@ export const Card = ({title, imageSource}) => {
   	);	
 			
 };
-
-
-
-
 export default Card;
